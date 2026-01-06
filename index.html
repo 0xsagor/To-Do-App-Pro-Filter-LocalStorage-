@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>To-Do App</h1>
+
+  <div class="form">
+    <input type="text" id="taskInput" placeholder="New task">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <div class="filters">
+    <button onclick="setFilter('all')">All</button>
+    <button onclick="setFilter('done')">Done</button>
+    <button onclick="setFilter('pending')">Pending</button>
+  </div>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
