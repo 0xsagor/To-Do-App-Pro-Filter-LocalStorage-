@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+.app {
+  width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.filters {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
